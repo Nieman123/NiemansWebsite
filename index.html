@@ -1,0 +1,155 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.3/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.9.3/dist/js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+
+<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+  <nav class="uk-navbar-container" uk-navbar style="position: relative; z-index: 980;">
+    <div class="uk-navbar-left">
+
+      <ul class="uk-navbar-nav">
+        <li class="uk-active"><a href="#">Home</a></li>
+        <li>
+          <a href="#">Projects</a>
+          <div class="uk-navbar-dropdown">
+            <ul class="uk-nav uk-navbar-dropdown-nav">
+              <li class="uk-active"><a href="#">Active</a></li>
+              <li><a href="#">Item</a></li>
+              <li><a href="#">Item</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="#">Mixes</a></li>
+      </ul>
+
+      <div class="uk-navbar-center">
+        <ul class="uk-navbar-nav">
+          <a class="uk-navbar-item uk-logo" href="#">NIEMAN'S WEBSITE</a>
+        </ul>
+
+      </div>
+      <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+         uk-slideshow-item="previous"></a>
+      <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+         uk-slideshow-item="next"></a>
+    </div>
+  </nav>
+</div>
+
+<div class="main">
+  <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
+    <ul class="uk-slideshow-items" uk-parallax="blur: 1">
+      <li>
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/austin-fireworks.jpg" alt="" uk-cover>
+      </li>
+      <li>
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/taj-mahal_copy.jpg" alt="" uk-cover>
+      </li>
+      <li>
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/ibiza.jpg" alt="" uk-cover>
+      </li>
+      <li>
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/ankor-wat.jpg" alt="" uk-cover>
+      </li>
+      <li>
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/austin-fireworks.jpg" alt="" uk-cover>
+      </li>
+    </ul>
+  </div>
+
+  <div class="uk-section uk-section-muted">
+    <div class="uk-container uk-align-center">
+
+      <h3 class="uk-text-center">This is Nieman's website, glad you made it!</h3>
+
+      <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
+        <div>
+          <p>Hey it's Nieman. I'm a DJ, maker and mixed reality software developer. You can find more about me
+            <a>here.</a> Also on this site are some DJ mixes, past and current projects, and other things I'm interested
+            in.</p>
+        </div>
+        <div>
+          <p>Most passionate about mixed reality,music and technology. </p>
+        </div>
+      </div>
+
+
+      <ul class="uk-subnav uk-subnav-pill uk-flex-center"
+          uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Current Projects</a></li>
+        <li><a href="#">DJ Mixes</a></li>
+      </ul>
+
+
+      <ul class="uk-switcher uk-margin">
+        <li>Hello!</li>
+        <li>
+          <div class="uk-container uk-align-center">
+            <h3 class="uk-text-center">Galaxy Donutz</h3>
+            <p>Galaxy Donutz is a multiplayer shop simulator for Virtual Reality</p>
+            <iframe src="https://drive.google.com/file/d/1Bs4bTbNr4PMAMJvMCUi1402PaiKLF4dd/preview" width="640" height="480" allow="autoplay"></iframe>
+          </div>
+        </li>
+        <li>
+          <div class="uk-container uk-align-center">
+            <h3 class="uk-text-center">Beauty 26</h3>
+            <iframe class="uk-align-center" width="560" height="315" src="https://www.youtube.com/embed/NpF4thtNb3U"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            !
+          </div>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

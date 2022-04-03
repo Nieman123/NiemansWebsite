@@ -1,0 +1,70 @@
+$global-link-color: #DA7D02;
+$global-color: #ffffff;
+$global-primary-background: black;
+$global-muted-background: #130a17;
+$global-secondary-background: rgba(215, 200, 200, 0.2);
+$global-emphasis-color: #ffffff;
+$global-muted-color: #a19e9e;
+$global-primary-background: #333333;
+$global-inverse-color: #333333;
+$button-default-background: $global-muted-background;
+
+$text-primary-color: #cccccc;
+$text-secondary-color: #ffff;
+$text-emphasis-color: #ffff;
+$text-meta-color: #ffff;
+$text-muted-color: #ffff;
+
+$list-muted-color: #ffff;
+$list-emphasis-color: #ffff;
+$list-secondary-color: #ffff;
+
+$dropdown-background: $global-muted-background;
+
+$button-default-hover-background: lighten($button-default-background, 5%);
+$breadcrumb-item-hover-color: #ffff;
+
+@import "../node_modules/uikit/src/scss/variables-theme.scss";
+@import "../node_modules/uikit/src/scss/mixins-theme.scss";
+
+@mixin hook-card() { color: #000; }
+
+@import "../node_modules/uikit/src/scss/uikit-theme.scss";
+
+body{
+  background-color: black;
+}
+
+.main{
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+html{
+  color: $global-muted-color;
+}
+
+.uk-open{
+  background-color: $global-muted-background;
+}
+
+.uk-link{
+  text-shadow: 2px 2px 5px red;
+}
+
+.uk-container{
+  color: $text-primary-color;
+}
+
+.uk-logo{
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.9);
+  font-family: 'Comfortaa', cursive;
+}
+
+.uk-subnav-pill > .uk-active > a{
+  background-color: #c7c6c6;
+  border-radius: 5px;
+  box-shadow: #999999;
+}
+
+
