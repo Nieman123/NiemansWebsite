@@ -1,7 +1,7 @@
 $global-link-color: #DA7D02;
 $global-color: #ffffff;
-$global-primary-background: black;
-$global-muted-background: #130a17;
+$global-primary-background: #414141;
+$global-muted-background: #0c0613;
 $global-secondary-background: rgba(215, 200, 200, 0.2);
 $global-emphasis-color: #ffffff;
 $global-muted-color: #a19e9e;
@@ -9,11 +9,11 @@ $global-primary-background: #333333;
 $global-inverse-color: #333333;
 $button-default-background: $global-muted-background;
 
-$text-primary-color: #cccccc;
-$text-secondary-color: #ffff;
+$text-primary-color: #838383;
+$text-secondary-color: #bebebe;
 $text-emphasis-color: #ffff;
 $text-meta-color: #ffff;
-$text-muted-color: #ffff;
+$text-muted-color: #797979;
 
 $list-muted-color: #ffff;
 $list-emphasis-color: #ffff;
@@ -27,17 +27,21 @@ $breadcrumb-item-hover-color: #ffff;
 @import "../node_modules/uikit/src/scss/variables-theme.scss";
 @import "../node_modules/uikit/src/scss/mixins-theme.scss";
 
-@mixin hook-card() { color: #000; }
+@mixin hook-card() { color: grey; }
 
 @import "../node_modules/uikit/src/scss/uikit-theme.scss";
 
 body{
-  background-color: black;
+  background-color: #1c1128;
 }
 
 .main{
   margin-right: 15%;
   margin-left: 15%;
+}
+
+.uk-card-default{
+  background-color: $global-secondary-background;
 }
 
 html{
@@ -65,6 +69,36 @@ html{
   background-color: #c7c6c6;
   border-radius: 5px;
   box-shadow: #999999;
+}
+
+.uk-progress.progress-green::-webkit-progress-value {
+  background-color: LightGreen ;
+}
+.uk-progress.progress-green::-moz-progress-bar {
+  background-color: LightGreen ;
+}
+.uk-progress.progress-green::-ms-fill {
+  background-color: LightGreen ;
+}
+
+.uk-progress.progress-red::-webkit-progress-value {
+  background-color: red ;
+}
+.uk-progress.progress-red::-moz-progress-bar {
+  background-color: red ;
+}
+.uk-progress.progress-red::-ms-fill {
+  background-color: red ;
+}
+
+.uk-progress.progress-blue::-webkit-progress-value {
+  background-color: cornflowerblue ;
+}
+.uk-progress.progress-blue::-moz-progress-bar {
+  background-color: cornflowerblue ;
+}
+.uk-progress.progress-blue::-ms-fill {
+  background-color: cornflowerblue ;
 }
 
 

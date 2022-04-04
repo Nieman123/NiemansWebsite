@@ -84,7 +84,7 @@ strong {
   color: #f0506e;
   white-space: nowrap;
   padding: 2px 6px;
-  background: #130a17;
+  background: #0c0613;
 }
 
 /*
@@ -951,7 +951,7 @@ a.uk-link-reset,
 }
 
 .uk-list-striped > :nth-of-type(odd) {
-  background: #130a17;
+  background: #0c0613;
 }
 
 .uk-list-striped > :nth-child(n+2) {
@@ -1121,7 +1121,7 @@ a.uk-link-reset,
  */
 .uk-table-striped > tr:nth-of-type(odd),
 .uk-table-striped tbody tr:nth-of-type(odd) {
-  background: #130a17;
+  background: #0c0613;
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -1359,7 +1359,7 @@ button.uk-icon:not(:disabled) {
   width: 36px;
   height: 36px;
   border-radius: 500px;
-  background: #130a17;
+  background: #0c0613;
   color: #a19e9e;
   vertical-align: middle;
   /* 1 */
@@ -1372,7 +1372,7 @@ button.uk-icon:not(:disabled) {
 
 /* Hover */
 .uk-icon-button:hover {
-  background-color: #040205;
+  background-color: black;
   color: #ffffff;
 }
 
@@ -1505,7 +1505,7 @@ button.uk-icon:not(:disabled) {
 /* Webkit */
 .uk-range::-webkit-slider-runnable-track {
   height: 3px;
-  background: #040205;
+  background: black;
   border-radius: 500px;
 }
 
@@ -1517,7 +1517,7 @@ button.uk-icon:not(:disabled) {
 /* Firefox */
 .uk-range::-moz-range-track {
   height: 3px;
-  background: #040205;
+  background: black;
   border-radius: 500px;
 }
 
@@ -1529,7 +1529,7 @@ button.uk-icon:not(:disabled) {
 .uk-range::-ms-fill-lower,
 .uk-range::-ms-fill-upper {
   height: 3px;
-  background: #040205;
+  background: black;
   border-radius: 500px;
 }
 
@@ -1727,7 +1727,7 @@ button.uk-icon:not(:disabled) {
 .uk-input:disabled,
 .uk-select:disabled,
 .uk-textarea:disabled {
-  background-color: #130a17;
+  background-color: #0c0613;
   color: #a19e9e;
   border-color: #e5e5e5;
 }
@@ -2003,7 +2003,7 @@ select.uk-form-width-xsmall {
  */
 .uk-radio:disabled,
 .uk-checkbox:disabled {
-  background-color: #130a17;
+  background-color: #0c0613;
   border-color: #e5e5e5;
 }
 
@@ -2266,14 +2266,14 @@ select.uk-form-width-xsmall {
  * Default
  */
 .uk-button-default {
-  background-color: #130a17;
+  background-color: #0c0613;
   color: #ffffff;
   border: 1px solid #e5e5e5;
 }
 
 /* Hover */
 .uk-button-default:hover {
-  background-color: #221229;
+  background-color: #180c26;
   color: #ffffff;
   border-color: #b2b2b2;
 }
@@ -2509,7 +2509,7 @@ select.uk-form-width-xsmall {
   /* 4 */
   border: 0;
   /* 5 */
-  background-color: #130a17;
+  background-color: #0c0613;
   /* 6 */
   margin-bottom: 20px;
   height: 15px;
@@ -2534,7 +2534,7 @@ select.uk-form-width-xsmall {
  * 2. Remove progress bar for indeterminate state in Firefox
  */
 .uk-progress::-webkit-progress-bar {
-  background-color: #130a17;
+  background-color: #0c0613;
   border-radius: 500px;
   overflow: hidden;
 }
@@ -2653,7 +2653,7 @@ select.uk-form-width-xsmall {
  * Muted
  */
 .uk-section-muted {
-  background: #130a17;
+  background: #0c0613;
 }
 
 /*
@@ -2943,7 +2943,7 @@ select.uk-form-width-xsmall {
  * Muted
  */
 .uk-tile-muted {
-  background-color: #130a17;
+  background-color: #0c0613;
 }
 
 /*
@@ -2966,7 +2966,7 @@ select.uk-form-width-xsmall {
 .uk-card {
   position: relative;
   box-sizing: border-box;
-  color: #000;
+  color: grey;
 }
 
 /* Sections
@@ -3371,7 +3371,7 @@ select.uk-form-width-xsmall {
   position: relative;
   margin-bottom: 20px;
   padding: 15px 29px 15px 15px;
-  background: #130a17;
+  background: #0c0613;
   color: #ffffff;
 }
 
@@ -3723,7 +3723,7 @@ select.uk-form-width-xsmall {
  ========================================================================== */
 .uk-comment-primary {
   padding: 30px;
-  background-color: #130a17;
+  background-color: #0c0613;
 }
 
 /* ========================================================================
@@ -4088,7 +4088,7 @@ select.uk-form-width-xsmall {
   min-width: 200px;
   /* 4 */
   padding: 25px;
-  background: #130a17;
+  background: #0c0613;
   color: #ffffff;
   box-shadow: 0 5px 12px rgba(0, 0, 0, 0.15);
 }
@@ -4923,7 +4923,7 @@ select.uk-form-width-xsmall {
 .uk-notification-message {
   position: relative;
   padding: 15px;
-  background: #130a17;
+  background: #0c0613;
   color: #ffffff;
   font-size: 1.25rem;
   line-height: 1.4;
@@ -5811,7 +5811,7 @@ ul.uk-nav-sub {
 /* Container
  ========================================================================== */
 .uk-navbar-container:not(.uk-navbar-transparent) {
-  background: #130a17;
+  background: #0c0613;
 }
 
 /*
@@ -6330,13 +6330,13 @@ ul.uk-nav-sub {
 
 /* Hover */
 .uk-subnav-pill > * > a:hover {
-  background-color: #130a17;
+  background-color: #0c0613;
   color: #ffffff;
 }
 
 /* OnClick */
 .uk-subnav-pill > * > a:active {
-  background-color: #130a17;
+  background-color: #0c0613;
   color: #ffffff;
 }
 
@@ -8186,7 +8186,7 @@ ul.uk-nav-sub {
 /* Color modifiers
  ========================================================================== */
 .uk-text-muted {
-  color: #ffff !important;
+  color: #797979 !important;
 }
 
 .uk-text-emphasis {
@@ -8194,11 +8194,11 @@ ul.uk-nav-sub {
 }
 
 .uk-text-primary {
-  color: #cccccc !important;
+  color: #838383 !important;
 }
 
 .uk-text-secondary {
-  color: #ffff !important;
+  color: #bebebe !important;
 }
 
 .uk-text-success {
@@ -8583,7 +8583,7 @@ iframe.uk-cover {
 }
 
 .uk-background-muted {
-  background-color: #130a17;
+  background-color: #0c0613;
 }
 
 .uk-background-primary {
@@ -11577,7 +11577,7 @@ h3 {
   }
 }
 body {
-  background-color: black;
+  background-color: #1c1128;
 }
 
 .main {
@@ -11585,12 +11585,16 @@ body {
   margin-left: 15%;
 }
 
+.uk-card-default {
+  background-color: rgba(215, 200, 200, 0.2);
+}
+
 html {
   color: #a19e9e;
 }
 
 .uk-open {
-  background-color: #130a17;
+  background-color: #0c0613;
 }
 
 .uk-link {
@@ -11598,7 +11602,7 @@ html {
 }
 
 .uk-container {
-  color: #cccccc;
+  color: #838383;
 }
 
 .uk-logo {
@@ -11610,6 +11614,42 @@ html {
   background-color: #c7c6c6;
   border-radius: 5px;
   box-shadow: #999999;
+}
+
+.uk-progress.progress-green::-webkit-progress-value {
+  background-color: LightGreen;
+}
+
+.uk-progress.progress-green::-moz-progress-bar {
+  background-color: LightGreen;
+}
+
+.uk-progress.progress-green::-ms-fill {
+  background-color: LightGreen;
+}
+
+.uk-progress.progress-red::-webkit-progress-value {
+  background-color: red;
+}
+
+.uk-progress.progress-red::-moz-progress-bar {
+  background-color: red;
+}
+
+.uk-progress.progress-red::-ms-fill {
+  background-color: red;
+}
+
+.uk-progress.progress-blue::-webkit-progress-value {
+  background-color: cornflowerblue;
+}
+
+.uk-progress.progress-blue::-moz-progress-bar {
+  background-color: cornflowerblue;
+}
+
+.uk-progress.progress-blue::-ms-fill {
+  background-color: cornflowerblue;
 }
 
 /*# sourceMappingURL=main.css.map */

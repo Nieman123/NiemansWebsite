@@ -28,24 +28,23 @@
 </head>
 
 <body>
-
+<!--Navbar-->
 <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
   <nav class="uk-navbar-container uk-sticky" uk-navbar style="position: relative; z-index: 980;">
     <div class="uk-navbar-left">
 
       <ul class="uk-navbar-nav">
         <li class="uk-active"><a href="#">Home</a></li>
-        <li>
-          <a href="#">Projects</a>
-          <div class="uk-navbar-dropdown">
-            <ul class="uk-nav uk-navbar-dropdown-nav">
-              <li class="uk-active"><a href="#">Active</a></li>
-              <li><a href="#">Item</a></li>
-              <li><a href="#">Item</a></li>
-            </ul>
-          </div>
-        </li>
-        <li><a href="#">Mixes</a></li>
+        <!--        <li>-->
+        <!--          <a href="#">Projects</a>-->
+        <!--          <div class="uk-navbar-dropdown">-->
+        <!--            <ul class="uk-nav uk-navbar-dropdown-nav">-->
+        <!--              <li class="uk-active"><a href="#">Active</a></li>-->
+        <!--              <li><a href="#">Item</a></li>-->
+        <!--              <li><a href="#">Item</a></li>-->
+        <!--            </ul>-->
+        <!--          </div>-->
+        <!--        </li>-->
       </ul>
 
       <div class="uk-navbar-center">
@@ -59,6 +58,7 @@
 </div>
 
 <div class="main">
+  <!--Slideshow-->
   <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
 
     <ul class="uk-slideshow-items" uk-parallax="blur: 1">
@@ -79,50 +79,94 @@
   <div class="uk-section uk-section-muted">
     <div class="uk-container uk-align-center">
 
-      <h3 class="uk-text-center">You've found my webpage here on the wide web.</h3>
+      <h3 class="uk-text-center uk-text-bolder uk-text-emphasis">XR Engineer and DJ</h3>
 
-      <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
-        <div>
-          <p>Hey it's Nieman. I'm a DJ, maker and mixed reality software developer. You can find more about me
-            <a>here.</a> Also on this site are some DJ mixes, past and current projects, and other things I'm interested
-            in.</p>
-        </div>
+      <div class="uk-align-center uk-text-center">
         <div class="uk-align-center">
-          <p>Most passionate about mixed reality,music and technology. </p>
+          <p>I'm a DJ, maker and mixed reality software engineer.
+            <!--            You can find more about me-->
+            <!--            <a>here.</a>-->
+          </p>
+          <p>
+            On this site are some DJ mixes, past and current projects, and other things I'm interested
+            in.
+          </p>
         </div>
       </div>
+    </div>
 
+    <hr class="uk-margin-large">
 
-      <ul class="uk-subnav uk-subnav-pill uk-flex-center"
-          uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
-        <li><a href="#">DJ Mixes</a></li>
-        <li><a href="#">Resume</a></li>
-        <li><a href="#">Current Projects</a></li>
-      </ul>
+    <div class="uk-container uk-align-center" uk-scrollspy="cls: uk-animation-fade; repeat: true">
+      <div class="uk-container uk-align-center">
+        <h3 class="uk-text-center uk-text-bolder">Beauty 26</h3>
+        <p class="uk-text-center">Listen to my latest mix on YouTube!</p>
 
+        <iframe class="uk-align-center" width="560" height="315" src="https://www.youtube.com/embed/NpF4thtNb3U"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+      </div>
+    </div>
 
-      <ul class="uk-switcher uk-margin">
-        <li>
-          <div class="uk-container uk-align-center">
-            <h3 class="uk-text-center">Beauty 26</h3>
-            <iframe class="uk-align-center" width="560" height="315" src="https://www.youtube.com/embed/NpF4thtNb3U"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+    <hr class="uk-margin-large">
+
+    <div class="uk-container uk-align-center" uk-scrollspy="cls: uk-animation-fade; repeat: true">
+      <div class="uk-container uk-align-center">
+        <h3 class="uk-text-center uk-text-bolder">Galaxy Donutz</h3>
+        <p>Galaxy Donutz is a multiplayer shop simulator for all VR headsets.
+          Come make some donuts for all the intergalactic customers. Enjoy this teaser as Galaxy Donutz is still in
+          active development.</p>
+        <iframe class="uk-align-center" src="https://drive.google.com/file/d/1Bs4bTbNr4PMAMJvMCUi1402PaiKLF4dd/preview"
+                width="640" height="480" allow="autoplay"></iframe>
+      </div>
+    </div>
+
+    <hr class="uk-margin-large">
+
+    <div class="uk-container uk-align-center" uk-scrollspy="cls: uk-animation-fade; repeat: true">
+      <div class="uk-container uk-align-center">
+        <div class="uk-grid-column-small uk-grid-row-large uk-child-width-1-2@s uk-text-center" uk-grid>
+
+          <div>
+            <h3 class="uk-text-center uk-text-light">Skills</h3>
+            <p>I am a game developer that specializes in AR and VR. The majority of the projects I work on are
+            training simulations for various different customers. Some examples are burn surgery training,
+            police de-escalation training, financial advisor training and many more!</p>
+            <p>Some of my skills include: C#, C++, Unreal Engine 4 and Unity, Git, UI and Sound Design, Python,
+            AWS, DynamoDB, Gamelift and more.</p>
           </div>
-        </li>
-        <li>Hello!</li>
-        <li>
-          <div class="uk-container uk-align-center">
-            <h3 class="uk-text-center">Galaxy Donutz</h3>
-            <p>Galaxy Donutz is a multiplayer shop simulator for Virtual Reality</p>
-            <iframe src="https://drive.google.com/file/d/1Bs4bTbNr4PMAMJvMCUi1402PaiKLF4dd/preview" width="640" height="480" allow="autoplay"></iframe>
-          </div>
-        </li>
-      </ul>
 
+          <div>
+          <div class="uk-card uk-card-default uk-card-body uk-background-default">
+            <p class="uk-text-left uk-text-light">Game Development</p>
+            <progress class="uk-progress progress-blue" value="100" max="100"></progress>
+            <p class="uk-text-left uk-text-light">Multiplayer Experiences</p>
+            <progress class="uk-progress progress-red" value="90" max="100"></progress>
+            <p class="uk-text-left uk-text-light">User Interaction</p>
+            <progress class="uk-progress progress-green" value="85" max="100"></progress>
+            <p class="uk-text-left uk-text-light">Toolkit Creation</p>
+            <progress class="uk-progress progress-green" value="85" max="100"></progress>
+          </div>
+        </div>
+        </div>
+
+      </div>
+    </div>
+
+    <hr class="uk-margin-large">
+
+    <div class="uk-container uk-align-center">
+      <h3 class="uk-text-center">Resume</h3>
+      <p class="uk-text-center">If you're interested feel free to download my resume below!</p>
+      <a href="docs/Resume.pdf" class="uk-button uk-button-default uk-width-1-3 uk-margin-small-bottom uk-align-center">
+        <span uk-icon="icon: download"></span>
+        Download
+      </a>
     </div>
   </div>
+
+</div>
 </div>
 
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
