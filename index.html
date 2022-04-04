@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Nieman's Site</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -30,7 +30,7 @@
 <body>
 
 <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
-  <nav class="uk-navbar-container" uk-navbar style="position: relative; z-index: 980;">
+  <nav class="uk-navbar-container uk-sticky" uk-navbar style="position: relative; z-index: 980;">
     <div class="uk-navbar-left">
 
       <ul class="uk-navbar-nav">
@@ -50,43 +50,36 @@
 
       <div class="uk-navbar-center">
         <ul class="uk-navbar-nav">
-          <a class="uk-navbar-item uk-logo" href="#">NIEMAN'S WEBSITE</a>
+          <a class="uk-navbar-item uk-logo" href="#">NIEMAN'S.WEBSITE</a>
         </ul>
 
       </div>
-      <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
-         uk-slideshow-item="previous"></a>
-      <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
-         uk-slideshow-item="next"></a>
     </div>
   </nav>
 </div>
 
 <div class="main">
   <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: fade">
+
     <ul class="uk-slideshow-items" uk-parallax="blur: 1">
       <li>
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/austin-fireworks.jpg" alt="" uk-cover>
+        <img src="img/dj-portrait.jpg" alt="" uk-cover>
       </li>
       <li>
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/taj-mahal_copy.jpg" alt="" uk-cover>
-      </li>
-      <li>
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/ibiza.jpg" alt="" uk-cover>
-      </li>
-      <li>
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/ankor-wat.jpg" alt="" uk-cover>
-      </li>
-      <li>
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/austin-fireworks.jpg" alt="" uk-cover>
+        <img src="img/dirtbike-portrait-cropped.jpeg" alt="" uk-cover>
       </li>
     </ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous
+       uk-slideshow-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next
+       uk-slideshow-item="next"></a>
   </div>
 
   <div class="uk-section uk-section-muted">
     <div class="uk-container uk-align-center">
 
-      <h3 class="uk-text-center">This is Nieman's website, glad you made it!</h3>
+      <h3 class="uk-text-center">You've found my webpage here on the wide web.</h3>
 
       <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
         <div>
@@ -94,7 +87,7 @@
             <a>here.</a> Also on this site are some DJ mixes, past and current projects, and other things I'm interested
             in.</p>
         </div>
-        <div>
+        <div class="uk-align-center">
           <p>Most passionate about mixed reality,music and technology. </p>
         </div>
       </div>
@@ -102,21 +95,13 @@
 
       <ul class="uk-subnav uk-subnav-pill uk-flex-center"
           uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium">
+        <li><a href="#">DJ Mixes</a></li>
         <li><a href="#">Resume</a></li>
         <li><a href="#">Current Projects</a></li>
-        <li><a href="#">DJ Mixes</a></li>
       </ul>
 
 
       <ul class="uk-switcher uk-margin">
-        <li>Hello!</li>
-        <li>
-          <div class="uk-container uk-align-center">
-            <h3 class="uk-text-center">Galaxy Donutz</h3>
-            <p>Galaxy Donutz is a multiplayer shop simulator for Virtual Reality</p>
-            <iframe src="https://drive.google.com/file/d/1Bs4bTbNr4PMAMJvMCUi1402PaiKLF4dd/preview" width="640" height="480" allow="autoplay"></iframe>
-          </div>
-        </li>
         <li>
           <div class="uk-container uk-align-center">
             <h3 class="uk-text-center">Beauty 26</h3>
@@ -124,7 +109,14 @@
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
-            !
+          </div>
+        </li>
+        <li>Hello!</li>
+        <li>
+          <div class="uk-container uk-align-center">
+            <h3 class="uk-text-center">Galaxy Donutz</h3>
+            <p>Galaxy Donutz is a multiplayer shop simulator for Virtual Reality</p>
+            <iframe src="https://drive.google.com/file/d/1Bs4bTbNr4PMAMJvMCUi1402PaiKLF4dd/preview" width="640" height="480" allow="autoplay"></iframe>
           </div>
         </li>
       </ul>
