@@ -1,5 +1,5 @@
 $global-link-color: #DA7D02;
-$global-color: #ffffff;
+$global-color: #fdfdfd;
 $global-primary-background: #414141;
 $global-muted-background: #0c0613;
 $global-secondary-background: rgba(215, 200, 200, 0.2);
@@ -9,11 +9,13 @@ $global-primary-background: #333333;
 $global-inverse-color: #333333;
 $button-default-background: $global-muted-background;
 
-$text-primary-color: #838383;
-$text-secondary-color: #bebebe;
+$text-primary-color: #f6f6f6;
+$text-secondary-color: #fcfafa;
 $text-emphasis-color: #ffff;
 $text-meta-color: #ffff;
-$text-muted-color: #797979;
+$text-muted-color: #cbcbcb;
+
+$card-primary-color: $text-secondary-color;
 
 $list-muted-color: #ffff;
 $list-emphasis-color: #ffff;
@@ -41,7 +43,7 @@ body{
 }
 
 .uk-card-default{
-  background-color: $global-secondary-background;
+  background-color: $global-muted-background;
 }
 
 html{
