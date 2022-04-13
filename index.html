@@ -66,7 +66,10 @@
         <img src="img/dj-portrait.jpg" alt="" uk-cover>
       </li>
       <li>
-        <img src="img/dirtbike-portrait-cropped.jpeg" alt="" uk-cover>
+        <img src="img/portrait.jpg" alt="" uk-cover>
+      </li>
+      <li>
+        <img src="img/dj-portrait2.jpg" alt="" uk-cover>
       </li>
       <li>
         <img src="img/dirtbike-portrait-cropped.jpeg" alt="" uk-cover>
@@ -78,6 +81,7 @@
         <li uk-slideshow-item="0"><a href="#">Item 1</a></li>
         <li uk-slideshow-item="1"><a href="#">Item 2</a></li>
         <li uk-slideshow-item="2"><a href="#">Item 3</a></li>
+        <li uk-slideshow-item="3"><a href="#">Item 4</a></li>
       </ul>
     </div>
 
@@ -87,17 +91,23 @@
   <div class="uk-section uk-section-muted">
     <div class="uk-container uk-align-center">
 
-      <h3 class="uk-text-center uk-text-bolder uk-text-emphasis">XR Engineer and DJ</h3>
+      <h3 class="uk-text-center uk-text-bolder uk-text-emphasis" uk-scrollspy="cls: uk-animation-fade; repeat: true">
+        XR Engineer and DJ</h3>
 
-      <div class="uk-align-center uk-text-center">
+      <div class="uk-align-center uk-text-center" uk-scrollspy="cls: uk-animation-fade; repeat: true">
         <div class="uk-align-center">
           <p>I'm a DJ, maker and mixed reality software engineer.
             <!--            You can find more about me-->
             <!--            <a>here.</a>-->
           </p>
           <p>
-            On this site are some DJ mixes, past and current projects, and other things I'm interested
-            in.
+            On this site are some DJ mixes, a teaser video for an upcoming game and my resume.
+          </p>
+          <p>
+            I plan on uploading some details
+            about some projects I'm working on, including Laser Graffiti based in UE4 and a super fun
+            <a href="https://github.com/Aircoookie/WLED">WLED</a>
+            Addressable LED tube!
           </p>
         </div>
       </div>
@@ -121,13 +131,15 @@
 
     <div class="uk-container uk-align-center" uk-scrollspy="cls: uk-animation-fade; repeat: true">
       <div class="uk-flex uk-grid-column-small uk-grid-row-large uk-child-width-1-2@s uk-text-center" uk-grid>
-        <div class="uk-width-1-2 uk-flex uk-flex-center uk-flex-middle uk-background-contain uk-light" data-src="img/GDLogo.png" uk-img>
+        <div class="uk-border-rounded uk-width-1-2 uk-flex uk-flex-center uk-flex-middle uk-background-contain uk-light"
+             data-src="img/GD-Screenshot.jpg" uk-scrollspy="cls: uk-animation-fade; repeat: true" uk-img>
         </div>
-        <div class="uk-card uk-card-default">
-          <div class="uk-card-media-top uk-align-center">
-            <img class="uk-border-rounded" src="img/GD-Screenshot.jpg" alt="Ingame screenshot of Galaxy Donutz">
+        <div class="uk-card uk-card-default" uk-scrollspy="cls: uk-animation-fade; repeat: true">
+          <div class="uk-card-media-top uk-align-center" uk-scrollspy="cls: uk-animation-fade; repeat: true">
+            <img src="img/GDLogo.png" alt="Ingame screenshot of Galaxy Donutz">
           </div>
-          <div class="uk-card-body uk-border-rounded uk-background-secondary uk-text-bold uk-text-secondary">
+          <div class="uk-card-body uk-border-rounded uk-background-secondary uk-text-bold uk-text-secondary"
+               uk-scrollspy="cls: uk-animation-fade; repeat: true">
             <p class="uk-align-center">Galaxy Donutz is a multiplayer shop simulator for all VR headsets.
               Come make some donuts for all the intergalactic customers. Enjoy this teaser as Galaxy Donutz is still in
               active development.</p>
@@ -135,8 +147,9 @@
         </div>
 
       </div>
-      <iframe uk-video="automute: true" width="1920" height="1080" allowfullscreen uk-responsive class="uk-align-center" src="https://drive.google.com/file/d/1Bs4bTbNr4PMAMJvMCUi1402PaiKLF4dd/preview"
-              width="640" height="480" allow="autoplay"></iframe>
+      <iframe uk-video="automute: true" width="1920" height="1080" allowfullscreen uk-responsive class="uk-align-center"
+              src="https://drive.google.com/file/d/1Bs4bTbNr4PMAMJvMCUi1402PaiKLF4dd/preview"
+              width="640" height="480" allow="autoplay" uk-scrollspy="cls: uk-animation-fade; repeat: true"></iframe>
     </div>
 
     <hr class="uk-margin-large">
@@ -145,25 +158,25 @@
       <div class="uk-container uk-align-center">
         <div class="uk-grid-column-small uk-grid-row-large uk-child-width-1-2@s uk-text-center" uk-grid>
 
-          <div>
+          <div uk-scrollspy="cls: uk-animation-fade; repeat: true">
             <h3 class="uk-text-center uk-text-light">Skills</h3>
             <p>I am a game developer that specializes in AR and VR. The majority of the projects I work on are
-            training simulations for various different customers. Some examples are burn surgery training,
-            police de-escalation training, financial advisor training and many more!</p>
+            training simulations for various different customers. Some are for burn surgeons,
+            police de-escalation, firefighters, federal government, financial advisor training and many more!</p>
             <p>Some of my skills include: C#, C++, Unreal Engine 4 and Unity, Git, UI and Sound Design, Python,
-            AWS, DynamoDB, Gamelift and more.</p>
+            AWS, DynamoDB, Gamelift and more!</p>
           </div>
 
-          <div>
+          <div uk-scrollspy="cls: uk-animation-fade; repeat: true">
           <div class="uk-card uk-card uk-card-body uk-border-rounded uk-background-secondary">
-            <p class="uk-text-primary uk-text-left uk-text-light">Game Development</p>
-            <progress class="uk-progress progress-blue" value="95" max="100"></progress>
-            <p class="uk-text-primary uk-text-left uk-text-light">Multiplayer Experiences</p>
-            <progress class="uk-progress progress-red" value="90" max="100"></progress>
-            <p class="uk-text-primary uk-text-left uk-text-light">User Interaction</p>
-            <progress class="uk-progress progress-green" value="85" max="100"></progress>
-            <p class="uk-text-primary uk-text-left uk-text-light">Toolkit Creation</p>
-            <progress class="uk-progress progress-green" value="85" max="100"></progress>
+            <p class="uk-text-primary uk-text-left uk-text-light" uk-scrollspy="cls: uk-animation-fade; repeat: true">Game Development</p>
+            <progress class="uk-progress progress-blue" value="95" max="100" uk-scrollspy="cls: uk-animation-fade; repeat: true"></progress>
+            <p class="uk-text-primary uk-text-left uk-text-light" uk-scrollspy="cls: uk-animation-fade; repeat: true">Multiplayer Experiences</p>
+            <progress class="uk-progress progress-red" value="90" max="100" uk-scrollspy="cls: uk-animation-fade; repeat: true"></progress>
+            <p class="uk-text-primary uk-text-left uk-text-light" uk-scrollspy="cls: uk-animation-fade; repeat: true">User Interaction</p>
+            <progress class="uk-progress progress-green" value="85" max="100" uk-scrollspy="cls: uk-animation-fade; repeat: true"></progress>
+            <p class="uk-text-primary uk-text-left uk-text-light" uk-scrollspy="cls: uk-animation-fade; repeat: true">Toolkit Creation</p>
+            <progress class="uk-progress progress-green" value="85" max="100" uk-scrollspy="cls: uk-animation-fade; repeat: true"></progress>
           </div>
         </div>
         </div>
@@ -173,11 +186,11 @@
 
     <hr class="uk-margin-large">
 
-    <div class="uk-container uk-align-center">
+    <div class="uk-container uk-align-center" uk-scrollspy="cls: uk-animation-fade; repeat: true">
       <h3 class="uk-text-center">Resume</h3>
       <p class="uk-text-center">If you're interested feel free to download my resume below!</p>
       <a href="docs/Resume.pdf" class="uk-button uk-button-default uk-width-1-3 uk-margin-small-bottom uk-align-center">
-        <span uk-icon="icon: download"></span>
+        <span uk-icon="icon: download" uk-scrollspy="cls: uk-animation-fade; repeat: true"></span>
         Download
       </a>
     </div>
